@@ -4,13 +4,13 @@ void
 solve(void)
 {
 	int max;
-    int num;
+	int num;
 
 	int digit;
 	int clap;
-    
-    scanf("%d", &max);
-    for (num = 1; num <= max; num++)
+	
+	scanf("%d", &max);
+	for (num = 1; num <= max; num++)
 	{
 		clap = 0;
 		for (digit = num; digit; digit /= 10)
@@ -24,7 +24,7 @@ solve(void)
 		}
 		
 		clap ? printf(" ") : printf("%d ", num);
-    }
-
+	}
+	
 	printf("\n");
 }
