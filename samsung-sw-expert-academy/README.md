@@ -1,7 +1,7 @@
 # Link : www.swexpertacademy.com
 
-[DIFFICULTY 1]
--
+DIFFICULTY 1
+------------
 2068 최대수 구하기 (Find Maximum Number)
 
 2070 큰 놈, 작은 놈, 같은 놈 (Larger, Smaller, Equal)
@@ -10,8 +10,8 @@
 
 2072 홀수만 더하기 (Add odd numbers)
 
-[DIFFICULTY 2]
--
+DIFFICULTY 2
+------------
 1859 백만 장자 프로젝트 (A Million-dollar Project)
 
 1926 간단한 369게임 (Simple 369 Game)
@@ -21,8 +21,8 @@
 1989 초심자의 회문 검사 (Beginner's Palindrome Check)
 
 
-[DIFFICULTY 3]
--
+DIFFICULTY 3
+------------
 5986 새샘이와 세 소수 (Three Prime Numbers)
 
 6019 기차 사이의 파리 (A Fly Between Trains)
