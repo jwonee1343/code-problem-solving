@@ -1,6 +1,7 @@
 # Link : www.swexpertacademy.com
 
 [DIFFICULTY 1]
+-
 2068	최대수 구하기 (Find Maximum Number)
 
 2070	큰 놈, 작은 놈, 같은 놈 (Larger, Smaller, Equal)
