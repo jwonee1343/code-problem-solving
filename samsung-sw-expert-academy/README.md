@@ -20,5 +20,6 @@
 
 
 [DIFFICULTY 3]
-- 5986	새샘이와 세 소수 (Three Prime Numbers)
-- 6019	기차 사이의 파리 (A Fly Between Trains)
+-
+5986	새샘이와 세 소수 (Three Prime Numbers)
+6019	기차 사이의 파리 (A Fly Between Trains)
