@@ -5,7 +5,9 @@
 2068	최대수 구하기 (Find Maximum Number)
 
 2070	큰 놈, 작은 놈, 같은 놈 (Larger, Smaller, Equal)
+
 2071	평균값 구하기 (Find Average)
+
 2072	홀수만 더하기 (Add odd numbers)
 
 [DIFFICULTY 2]
@@ -22,4 +24,5 @@
 [DIFFICULTY 3]
 -
 5986	새샘이와 세 소수 (Three Prime Numbers)
+
 6019	기차 사이의 파리 (A Fly Between Trains)
