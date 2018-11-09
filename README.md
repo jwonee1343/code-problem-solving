@@ -1,1 +1,1 @@
-# code-problem-solving
+# Coding Challenge
