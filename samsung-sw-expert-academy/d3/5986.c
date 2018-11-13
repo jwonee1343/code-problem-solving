@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-int
-is_prime(int num)
+int is_prime(int num)
 {
-	int x = num / 2;
+	int x;
 
 	if (num < 2)
 		return 0;
@@ -11,8 +10,7 @@ is_prime(int num)
 	if (num < 4)
 		return 1;
 
-	for (x = num / 2; x > 1; x--)
-	{
+	for (x = num / 2; x > 1; x--) {
 		if (num % x == 0)
 			return 0;
 	}
@@ -20,8 +18,7 @@ is_prime(int num)
 	return 1;
 }
 
-int
-get_prime(int *arr, int max)
+int get_prime(int *arr, int max)
 {
 	int i;
 	int n;
@@ -38,8 +35,7 @@ get_prime(int *arr, int max)
 		return 2;
 
 	i = 2;
-	for (n = 5; n <= max; n += 2)
-	{
+	for (n = 5; n <= max; n += 2) {
 		if ( is_prime(n) )
 			arr[i++] = n;
 	}
@@ -47,8 +43,7 @@ get_prime(int *arr, int max)
 	return i;
 }
 
-int
-main(void)
+int main(void)
 {
 	int T, t;
 	
@@ -60,15 +55,12 @@ main(void)
 	get_prime(prime, 999);
 
 	scanf("%d", &T);
-	for (t = 1; t <= T; t++)
-	{
+	for (t = 1; t <= T; t++) {
 		scanf("%d", &N);
 
 		case_num = 0;
-		for (x = 0; prime[x] <= (N / 3); x++)
-		{
-			for (y = x; prime[y] <= (N / 2); y++)
-			{
+		for (x = 0; prime[x] <= (N / 3); x++) {
+			for (y = x; prime[y] <= (N / 2); y++) {
 				for (z = y; prime[x] + prime[y] + prime[z] < N; z++)
 					;
 				
