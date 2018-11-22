@@ -14,6 +14,5 @@ void solve(void)
 		if ( IS_ODD(num) )
 			sum += num;		
 	}
-
 	printf("%d\n", sum);
 }
