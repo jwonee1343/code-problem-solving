@@ -11,6 +11,5 @@ solve(void)
 		scanf("%d", &num);
 		sum += num;
 	}
-
 	printf("%.f\n", sum * 0.1);
 }
