@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void
-solve(void)
+void solve(void)
 {
 	int x, y;
 
