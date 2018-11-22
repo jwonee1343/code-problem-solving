@@ -7,5 +7,5 @@ solve(void)
 
 	scanf("%d %d", &x, &y);
 	printf("%c\n", x > y ? '>' : 
-			       x < y ? '<' : '=');
+	               x < y ? '<' : '=');
 }
