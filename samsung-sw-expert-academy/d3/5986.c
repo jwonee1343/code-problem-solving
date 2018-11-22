@@ -63,8 +63,7 @@ int main(void)
 			for (y = x; prime[y] <= (N / 2); y++) {
 				for (z = y; prime[x] + prime[y] + prime[z] < N; z++)
 					;
-				
-				if (N == prime[x] + prime[y] + prime[z])
+				if (prime[x] + prime[y] + prime[z] == N)
 					case_num++;
 			}
 		}
