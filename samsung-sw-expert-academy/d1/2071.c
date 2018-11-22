@@ -7,8 +7,7 @@ solve(void)
 	int sum = 0;
 	int num;
 
-	for (; loop--; )
-	{
+	for (; loop--; ) {
 		scanf("%d", &num);
 		sum += num;
 	}
