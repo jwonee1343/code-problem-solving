@@ -1,6 +1,6 @@
-# Link : www.swexpertacademy.com
-
- 삼성 SW Expert Academy에서 출제된 문제 풀이 소스 모음.
+Link : www.swexpertacademy.com
+==============================
+    삼성 SW Expert Academy에서 출제된 문제 풀이 소스 모음.
 
 DIFFICULTY 1
 ------------
