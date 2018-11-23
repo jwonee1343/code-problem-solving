@@ -5,11 +5,9 @@ int is_prime(int num)
 	int x;
 
 	if (num < 2)
-		return 0;
-	
+		return 0
 	if (num < 4)
 		return 1;
-
 	for (x = num / 2; x > 1; x--) {
 		if (num % x == 0)
 			return 0;
@@ -25,15 +23,12 @@ void get_prime(int *arr, int max)
 
 	if (max < 2)
 		return;
-
 	arr[0] = 2;
 	if (max < 3)
 		return;
-
 	arr[1] = 3;
 	if (max < 5)
 		return;
-
 	i = 2;
 	for (n = 5; n <= max; n += 2) {
 		if ( is_prime(n) )
