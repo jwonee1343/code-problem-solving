@@ -22,13 +22,13 @@ int get_prime(int *arr, int max)
 	int n;
 
 	if (max < 2)
-		return;
+		return i;
 	arr[i++] = 2;
 	if (max < 3)
-		return;
+		return i;
 	arr[i++] = 3;
 	if (max < 5)
-		return;
+		return i;
 	for (n = 5; n <= max; n += 2) {
 		if ( is_prime(n) )
 			arr[i++] = n;
